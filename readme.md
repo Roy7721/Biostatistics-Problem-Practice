@@ -14,4 +14,18 @@ Solution:
 4. Plot the Kaplan-Meier survival curve.
 5. Interpret the survival probabilities and comment on the overall findings.
 
+### Problem 3:
+**Maximum Likelihood Estimation of Weibull**
+Parameters under Type-1 Censoring
+Given the following survival times (in weeks) for 16 observed failures and 4 censored observations, perform the maximum likelihood estimation (MLE) for the Weibull distribution parameters.
+
+Survival times: c(70, 160, 105, 140, 20, 113, 121, 10, 44, 150, 60, 30, 30, 11, 11, 15)
+1.	Define a log-likelihood function for the Weibull distribution under Type-1 censoring.
+2.	Use the mle() function from the stats4 package to estimate the scale (a) and shape (b) parameters.
+3.	Compute the variance-covariance matrix and extract the variances of the estimators.
+4.	Calculate the 95% confidence intervals for the estimated parameters.
+5.	Estimate the survival probability after 150 weeks.
+6.	Estimate the median survival time using the Weibull distribution with the estimated parameters.
+
+
 
